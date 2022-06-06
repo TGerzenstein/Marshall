@@ -1,0 +1,17 @@
+footer {
+    background-color: black;
+    padding: 15px 20px;
+    
+    .p-text {
+      color: #fff;
+      padding-left: 30px;
+      font-weight: 700;
+    }
+
+    ul {
+      li {
+        list-style-type: none;
+        color: grey;
+      } 
+    }
+}
