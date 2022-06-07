@@ -12,7 +12,7 @@ header {
   header .navbar-collapse {
     background-color: black; }
   header .imagen {
-    background-image: url("/headphones-g63d79fb94_1280.jpg");
+    background-image: url("/marshal.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 110vh; }
@@ -35,6 +35,66 @@ footer {
   footer ul li {
     list-style-type: none;
     color: grey; }
+
+main .box-main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-top: 30px;
+  padding-bottom: 90px;
+  background-color: #161616; }
+  main .box-main .box1 {
+    padding: 0.780rem 0.625rem 0.938rem 2.5rem;
+    margin: 0.625rem 0rem 0.625rem 0.625rem;
+    width: 38%;
+    text-align: center;
+    color: #fff;
+    margin-top: 10px; }
+    main .box-main .box1 h2 {
+      font-size: 20px;
+      padding-top: 38px;
+      padding-bottom: 5px;
+      margin-left: 48px;
+      margin-right: 48px; }
+    main .box-main .box1 .ima1 {
+      background-image: url("/img2.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 50vh; }
+    main .box-main .box1 .but1 {
+      background-color: #fff;
+      color: black;
+      padding: 9px 22px;
+      text-align: center;
+      font-size: 14px;
+      font-weight: 600;
+      margin: 4px 2px; }
+  main .box-main .box2 {
+    padding: 0.780rem 0.625rem 0.938rem 2.5rem;
+    margin: 0.625rem 0rem 0.625rem 0.625rem;
+    width: 38%;
+    text-align: center;
+    color: #fff;
+    margin-top: 10px; }
+    main .box-main .box2 h2 {
+      font-size: 20px;
+      padding-top: 38px;
+      padding-bottom: 5px;
+      margin-left: 48px;
+      margin-right: 48px; }
+    main .box-main .box2 .ima2 {
+      background-image: url("/img1.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 50vh; }
+    main .box-main .box2 .but2 {
+      background-color: #fff;
+      color: black;
+      padding: 9px 22px;
+      text-align: center;
+      font-size: 14px;
+      font-weight: 600;
+      margin: 4px 2px; }
 
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }

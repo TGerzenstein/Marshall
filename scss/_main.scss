@@ -1,0 +1,80 @@
+@mixin box-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 30px;
+    padding-bottom: 90px;
+    background-color: #161616;
+}
+
+@mixin boxes {
+    padding: 0.780rem 0.625rem 0.938rem 2.5rem;
+    margin: 0.625rem 0rem 0.625rem 0.625rem;
+    width: 38%;
+    text-align: center;
+    color: #fff;
+    margin-top: 10px;
+}
+
+@mixin tittle-m {
+    font-size: 20px;
+    padding-top: 38px;
+    padding-bottom: 5px;
+    margin-left: 48px;
+    margin-right: 48px;
+}
+
+@mixin buton {
+    background-color: #fff;
+    color: black;
+    padding: 9px 22px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 4px 2px;
+}
+
+
+main {
+    .box-main {
+        @include box-main;   
+        
+        .box1 {
+          @include boxes; 
+            
+            h2 {
+               @include tittle-m;
+            }
+
+            .ima1 {
+              background-image: url("/img2.jpg");
+              background-repeat: no-repeat;
+              background-size: cover;
+              height: 50vh;
+            }
+
+            .but1 {
+                @include buton; 
+            }
+        }
+
+        .box2 {
+          @include boxes;
+            
+            h2 {
+              @include tittle-m;
+            }
+
+            .ima2 {
+                background-image: url("/img1.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+                height: 50vh;
+            }
+
+            .but2 {
+                @include buton;
+            }
+        }
+    }
+}
