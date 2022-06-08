@@ -20,8 +20,8 @@
     font-size: 20px;
     padding-top: 38px;
     padding-bottom: 5px;
-    margin-left: 48px;
-    margin-right: 48px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 @mixin buton {
@@ -74,6 +74,29 @@ main {
 
             .but2 {
                 @include buton;
+            }
+        }
+    }
+
+    .box-main2 {
+        display: block;
+        flex-direction: column;
+        justify-content: space-around;
+        text-align: right ;
+       
+        .img-2 {
+            background-image: url("/img-2.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 46vh;
+    
+            .img-2-t {
+                color: #fff;
+                padding-top: 70px;
+                padding-right: 275px;
+                padding-left: 80px;
+                font-size: 2.50rem;
+                text-align: right;
             }
         }
     }
