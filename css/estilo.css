@@ -113,3 +113,11 @@ main .box-main2 {
       padding-left: 5rem;
       font-size: 2.50rem;
       text-align: right; }
+    main .box-main2 .img-2 .but3 {
+      background-color: white;
+      color: black;
+      padding: 0.563rem 1.375rem;
+      text-align: center;
+      font-size: 0.875rem;
+      font-weight: 600;
+      margin: 0.25rem 20.15rem; }
