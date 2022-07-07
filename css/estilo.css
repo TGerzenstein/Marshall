@@ -27,14 +27,25 @@ header {
 
 footer {
   background-color: black;
-  padding: 0.938rem 1.25rem; }
-  footer .p-text {
-    color: white;
-    padding-left: 1.875rem;
-    font-weight: 700; }
-  footer ul li {
-    list-style-type: none;
-    color: grey; }
+  padding: 3rem 1.25rem; }
+  footer .box-foot {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+    footer .box-foot .boxfot1 .p-text {
+      color: white;
+      padding-left: 1.875rem;
+      font-weight: 700; }
+    footer .box-foot .boxfot1 ul li {
+      list-style-type: none;
+      color: grey; }
+    footer .box-foot .boxfot2 .p-text2 {
+      color: white;
+      font-weight: 700;
+      padding-left: 1.875rem; }
+    footer .box-foot .boxfot2 ul li {
+      list-style-type: none;
+      color: grey; }
 
 main .box-main {
   display: flex;

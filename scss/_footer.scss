@@ -1,29 +1,42 @@
 footer {
     background-color: black;
-    padding: 0.938rem 1.25rem;
+    padding: 3rem 1.25rem;
     
     .box-foot {
       display: flex;
       flex-direction: row;
+      justify-content: space-between;
       
-      .p-text {
-        color: white;
-        padding-left: 1.875rem;
-        font-weight: 700;
+      .boxfot1 {
+       
+        .p-text {
+          color: white;
+          padding-left: 1.875rem;
+          font-weight: 700;
+        }
+
+        ul {
+          li {
+            list-style-type: none;
+            color: grey;
+          } 
+        }
       }
   
-      ul {
-        li {
-          list-style-type: none;
-          color: grey;
-        } 
-      }
-  
-      .p-text2 {
-        color: white;
-        text-align: center;
-        font-weight: 700;
+      .boxfot2 {
+         
+        .p-text2 {
+          color: white;
+          font-weight: 700;
+          padding-left: 1.875rem;
+        }
+      
+        ul {
+          li {
+            list-style-type: none;
+            color: grey;
+          } 
+        }
       }
     }
-    
 }
